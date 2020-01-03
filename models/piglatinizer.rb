@@ -15,5 +15,5 @@ end
   
   def to_pig_latin(phrase)
     phrase.split.collect {|word| piglatinize(word)}.join(' ')
-    
+end
 end
